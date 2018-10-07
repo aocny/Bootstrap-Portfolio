@@ -13,9 +13,17 @@
  <!-- Bootstrap CDN -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
  <style>
-   img {
-     max-width: 100%;
-   }
+   
+     .container {
+    padding: 0px;
+  } 
+
+    nav.navbar {
+  width: inherit;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+   
  </style> 
 </head>
 
@@ -46,47 +54,49 @@
       </nav>
       <!-- End Nav -->
 
+      <div class="container">
+
    <!-- a Bootstrap row with columns -->
       <div class="row">
+        <div class="col-lg-12">
         <h1>Portfolio</h1>
+        </div>
       </div>
 
       <div class="row">
         <!-- At large+ screens takes up half width (6/12) -->
-      <div class="col-lg-6">
-  
+      <div class="col-lg-6 portfolio-item">
+        
           <!-- centered image with thumbnail rules -->
-          <img class="img thumbnail center-block" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-            <div class= "photo">
+          <img class="card img-top" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+            <div class= "card-body">
             <span class="label label-inverse photo-label">Word Guess</span>
             </div> 
-
+          </div>
     
         <!-- At large+ screens takes up half width (6/12) -->
-        <div class="col-lg-6">
-          <img class="img thumbnail center-block" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-            <div class= "photo">
+        <div class="col-lg-6 portfolio-item">
+            <img class="card img-top" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+            <div class= "card-body">
                 <span class="label label-inverse photo-label">RPG Game</span>
             </div> 
         </div>
    
-
-      <div class="row">
+     <div class="row">
             <!-- At large+ screens takes up half width (6/12) -->
-            <div class="col-lg-6">
+            <div class="col-lg-6 portfolio-item">
       
               <!-- centered image with thumbnail rules -->
-              <img class="img thumbnail center-block" src="assets/images/technics-q-c-640-480-5.jpg"  alt="Trivia Game">
-                <div class= "photo">
+              <img class="card img-top" src="assets/images/technics-q-c-640-480-5.jpg"  alt="Trivia Game">
+                <div class= "card-body">
                 <span class="label label-inverse photo-label">Trivia Game</span>
                 </div> 
-    
-        </div>
+     </div>
       
             <!-- At large+ screens takes up half width (6/12) -->
-            <div class="col-lg-6">
-              <img class="img thumbnail center-block" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-                <div class= "photo">
+            <div class="col-lg-6 portfolio-item">
+              <img class="card img-top" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+                <div class= "card-body">
                     <span class="label label-inverse photo-label">Rutgers Info Widget</span>
                 </div> 
             </div>
@@ -94,17 +104,17 @@
 
         <div class="row">
                 <!-- At large+ screens takes up half width (6/12) -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 portfolio-item">
           
                   <!-- centered image with thumbnail rules -->
-                  <img class="img thumbnail center-block" src="assets/images/technics-q-c-640-480-9.jpg"  alt="Rock Paper Scissors">
-                    <div class= "photo">
+                  <img class="card img-top" src="assets/images/technics-q-c-640-480-9.jpg"  alt="Rock Paper Scissors">
+                    <div class= "card-body">
                     <span class="label label-inverse photo-label">Rock Paper Scissors</span>
                     </div> 
         
                 </div>
         </div>
- 
+      </div>
 
     <nav class="navbar navbar-expand-lg navbar-inverse navbar-light bg-light navbar-fixed-bottom">
         <div class="container-fluid">
